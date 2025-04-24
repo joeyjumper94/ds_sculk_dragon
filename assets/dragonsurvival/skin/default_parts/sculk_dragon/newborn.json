@@ -1,0 +1,17 @@
+{
+  "species": "dragonsurvival:sculk_dragon",
+  "stage": "dragonsurvival:newborn",
+  "model": "dragonsurvival:dragon_model",
+  "parts": {
+    "base": "base_0",
+    "bottom": "bottom_2",
+    "eyes": "eyes_11",
+    "horns": "horns_47",
+    "spikes": "spikes_4",
+    "claws": "claw_3_sculk_1",
+    "teeth": "teeth_1",
+    "extra1": "all_extra_9",
+    "extra2": "all_extra_10",
+    "extra3": "all_extra_11"
+  }
+}

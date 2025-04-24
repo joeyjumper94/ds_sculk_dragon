@@ -1,0 +1,19 @@
+{
+  "values": {
+    "dragonsurvival:sculk_dragon": {
+      "neoforge:conditions": [
+        {
+          "type": "dragonsurvival:registered",
+          "registry": "dragonsurvival:dragon_species",
+          "value": "dragonsurvival:sculk_dragon"
+        }
+      ],
+      "spawn_position": [
+        0,
+        50,
+        -200
+      ],
+      "structure": "dragonsurvival:end_spawn_platforms/forest_end_spawn_platform"
+    }
+  }
+}

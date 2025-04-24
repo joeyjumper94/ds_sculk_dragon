@@ -1,0 +1,79 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:on_attack",
+              "potion": {
+                "amplifier": {
+                  "type": "minecraft:linear",
+                  "base": 0,
+                  "per_level_above_first": 1
+                },
+                "duration": {
+                  "type": "minecraft:linear",
+                  "base": 20,
+                  "per_level_above_first": 20
+                },
+                "effects": "minecraft:wither",
+                "probability": 1,
+                "effect_particles": true,
+                "show_icon": true
+              }
+            }
+          ],
+          "targeting_mode": "all"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": {
+        "type": "minecraft:linear",
+        "base": 0.2,
+        "per_level_above_first": 0.2
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/0_poisonous_spike"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/1_poisonous_spike"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/2_poisonous_spike"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/3_poisonous_spike"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/4_poisonous_spike"
+      },
+      {
+        "from_level": 5,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/5_poisonous_spike"
+      }
+    ]
+  },
+  "upgrade": {
+    "experience_cost": {
+      "type": "minecraft:linear",
+      "base": 50,
+      "per_level_above_first": 50
+    },
+    "maximum_level": 5,
+    "upgrade_type": "dragonsurvival:experience_points"
+  }
+}

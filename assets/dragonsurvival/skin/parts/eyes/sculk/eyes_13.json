@@ -1,0 +1,8 @@
+{
+	"applicable_species": [
+		"dragonsurvival:sculk_dragon"
+	],
+	"average_hue": 0.8313131313131312,
+	"key": "eyes_13",
+	"texture": "dragonsurvival:textures/dragon/custom/forest_eyes_13.png"
+}

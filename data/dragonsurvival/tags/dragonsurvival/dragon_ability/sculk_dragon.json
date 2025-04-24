@@ -1,0 +1,63 @@
+{
+  "values": [
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_eyes"
+		},
+		{
+			"comment":"active, increases with level",
+			"required":false,
+			"id":"dragonsurvival:inspiration"
+		},
+		{
+			"comment":"active, increases with level",
+			"required":false,
+			"id":"dragonsurvival:sculk_breath"
+		},
+		{
+			"comment":"active, increases with level",
+			"required":false,
+			"id":"dragonsurvival:sculk_feed"
+		},
+
+
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_magic"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_infect"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_athletics"
+		},
+
+
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_wings"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_immunity"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_spin"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"dragonsurvival:sculk_claws_and_teeth"
+    }
+  ]
+}

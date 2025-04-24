@@ -1,0 +1,19 @@
+{
+  "values": [
+    {
+      "comment":"active, increases with level",
+      "required":false,
+      "id":"dragonsurvival:item_blacklist"
+    },
+    {
+      "comment":"active, increases with level",
+      "required":false,
+      "id":"dragonsurvival:fear"
+    },
+    {
+      "comment":"active, increases with level",
+      "required":false,
+      "id":"dragonsurvival:light_sensitivity"
+    }
+  ]
+}
