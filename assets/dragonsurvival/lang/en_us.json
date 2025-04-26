@@ -14,12 +14,12 @@
   "dragon_ability.dragonsurvival.sculk_eyes.desc": "■ Give yourself §2Night Vision§r§7 for a short time. Makes dark areas seem less dark.",
 
   "dragon_ability.dragonsurvival.sculk_infect": "Sculk Infect",
-  "dragon_ability.dragonsurvival.sculk_infect.desc":  "■ Your target has a chance to be infected by sculk from your attacks.\n\n■ The effect deals drains their health. the higher this ability is leveled, the more likely, and more damaging the effect.\n\n■ §8Sculk Dragons are immune to this effect.§r",
+  "dragon_ability.dragonsurvival.sculk_infect.desc":  "■ Your target has a chance to be infected by sculk from your attacks.\n\n■ The effect drains their health. the higher this ability is leveled, the more likely, and more damaging the effect.\n\n■ §8Sculk Dragons are immune to this effect.§r",
 
   "dragon_ability.dragonsurvival.sculk_breath": "Sculk Breath",
-  "dragon_ability.dragonsurvival.sculk_breath.desc": "■ Breathe out toxic gas that causes §c«Drain»§r, which withers away enemies over time.\n\n■ §fRange§r§7 depends on age of the dragon.§r",
+  "dragon_ability.dragonsurvival.sculk_breath.desc": "■ Breathe out toxic gas that causes §c«Wither»§r, which drains away the life force of enemies over time.\n\n■ §fRange§r§7 depends on age of the dragon.§r",
   "dragon_ability.dragonsurvival.sculk_feed": "Sculk Feed",
-  "dragon_ability.dragonsurvival.sculk_feed.desc": "■ Sculk dragons can replenish their hunger. This ability gets stronger as you level up.",
+  "dragon_ability.dragonsurvival.sculk_feed.desc": "■ Sculk dragons can feed some of their mana to their internal Sculk, the resulting sculk bloom replenishes their hunger\n\n■ the internal Sculk Bloom will cause them to feel §2Weak§r§7 and §2Fatigued§r§7 as an after effect\n\n■ The amount of Nourishment and the duration and intensity of the after effect will increase as you level up.",
   "dragon_ability.dragonsurvival.sculk_claws_and_teeth": "Claws and Teeth",
   "dragon_ability.dragonsurvival.sculk_claws_and_teeth.desc": "■ Sculk dragons can §2hoe§7 sculk and leaves faster §fwithout tools§r§7. This ability gets stronger as you grow.",
   "dragon_ability.dragonsurvival.sculk_immunity": "Sculk Immunity",
