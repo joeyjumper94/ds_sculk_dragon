@@ -9,34 +9,50 @@
               "potion": {
                 "amplifier": {
                   "type": "minecraft:linear",
-                  "base": 0.2,
-                  "per_level_above_first": 0.2
+                  "base": 0,
+                  "per_level_above_first": 1
                 },
                 "duration": {
                   "type": "minecraft:linear",
-                  "base": 20.0,
-                  "per_level_above_first": 20.0
+                  "base": 20,
+                  "per_level_above_first": 20
                 },
                 "effects": "minecraft:speed"
               }
             }
           ],
           "target_conditions": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "stepping_on": {
-                "block": {
-                  "blocks": "#dragonsurvival:speeds_up_sculk_dragon"
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "block": {
+                      "blocks": "#dragonsurvival:speeds_up_sculk_dragon"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": "#dragonsurvival:speeds_up_sculk_dragon"
+                    }
+                  }
                 }
               }
-            }
+            ]
           },
           "targeting_mode": "allies_and_self"
         },
         "target_type": "dragonsurvival:self"
       },
-      "trigger_rate": 20.0
+      "trigger_rate": 20
     }
   ],
   "activation": {
@@ -73,8 +89,8 @@
   "upgrade": {
     "experience_cost": {
       "type": "minecraft:linear",
-      "base": 15.0,
-      "per_level_above_first": 15.0
+      "base": 15,
+      "per_level_above_first": 15
     },
     "maximum_level": 5,
     "upgrade_type": "dragonsurvival:experience_points"

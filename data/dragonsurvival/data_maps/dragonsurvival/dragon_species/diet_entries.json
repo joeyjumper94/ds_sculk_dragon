@@ -10,6 +10,22 @@
       ],
       "neoforge:value": [
         {
+          "items": "minecraft:nether_star",
+          "properties": {
+            "eat_seconds": 5.0,
+            "nutrition": 20,
+            "saturation": 20.0
+          }
+        },
+        {
+          "items": "minecraft:nether_wart",
+          "properties": {
+            "eat_seconds": 0.5,
+            "nutrition": 1,
+            "saturation": 1.0
+          }
+        },
+        {
           "items": "minecraft:sculk",
           "properties": {
             "eat_seconds": 1.0,
@@ -20,17 +36,9 @@
         {
           "items": "minecraft:sculk_catalyst",
           "properties": {
-            "eat_seconds": 1.0,
+            "eat_seconds": 5.0,
             "nutrition": 20,
             "saturation": 20.0
-          }
-        },
-        {
-          "items": "minecraft:sculk_shrieker",
-          "properties": {
-            "eat_seconds": 1.0,
-            "nutrition": 10,
-            "saturation": 10.0
           }
         },
         {
@@ -42,15 +50,15 @@
           }
         },
         {
-          "items": "minecraft:sculk_vein",
+          "items": "minecraft:sculk_shrieker",
           "properties": {
-            "eat_seconds": 0.5,
-            "nutrition": 1,
-            "saturation": 1.0
+            "eat_seconds": 1.0,
+            "nutrition": 10,
+            "saturation": 10.0
           }
         },
         {
-          "items": "minecraft:wither_rose",
+          "items": "minecraft:sculk_vein",
           "properties": {
             "eat_seconds": 0.5,
             "nutrition": 1,
@@ -74,17 +82,9 @@
           }
         },
         {
-          "items": "minecraft:nether_star",
+          "items": "minecraft:wither_rose",
           "properties": {
-            "eat_seconds": 1.0,
-            "nutrition": 20,
-            "saturation": 20.0
-          }
-        },
-        {
-          "items": "minecraft:nether_wart",
-          "properties": {
-            "eat_seconds": 1.0,
+            "eat_seconds": 0.5,
             "nutrition": 1,
             "saturation": 1.0
           }

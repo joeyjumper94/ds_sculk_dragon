@@ -1,0 +1,45 @@
+{
+  "parent": "dragonsurvival:place_altar",
+  "criteria": {
+    "be_dragon": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:sculk_dragon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "dragonsurvival.advancement.sculk/be_dragon.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:dragon_soul"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "dragonsurvival.advancement.sculk/be_dragon"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "be_dragon"
+    ]
+  ],
+  "rewards": {
+    "experience": 12
+  }
+}

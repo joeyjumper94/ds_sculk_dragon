@@ -1,7 +1,8 @@
 {
+  "replace":false,
   "values": [
 		{
-			"comment":"",
+			"comment":"active",
 			"required":false,
 			"id":"dragonsurvival:sculk_eyes"
 		},
@@ -23,17 +24,17 @@
 
 
 		{
-			"comment":"",
+			"comment":"passive, manually leveled",
 			"required":false,
 			"id":"dragonsurvival:sculk_magic"
 		},
 		{
-			"comment":"",
+			"comment":"passive, manually leveled",
 			"required":false,
 			"id":"dragonsurvival:sculk_infect"
 		},
 		{
-			"comment":"",
+			"comment":"passive, manually leveled",
 			"required":false,
 			"id":"dragonsurvival:sculk_athletics"
 		},

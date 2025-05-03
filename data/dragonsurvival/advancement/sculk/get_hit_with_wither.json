@@ -1,0 +1,73 @@
+{
+  "parent": "dragonsurvival:sculk/master_all_passives",
+  "criteria": {
+    "stand_on_wither_rose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": "minecraft:wither_rose"
+                }
+              },
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:sculk_dragon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wither_status": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:sculk_dragon"
+              },
+              "effects": {
+                "minecraft:wither": {}
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "dragonsurvival.advancement.sculk/get_hit_with_wither.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_rose"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "dragonsurvival.advancement.sculk/get_hit_with_wither"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "wither_status",
+      "stand_on_wither_rose"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  },
+  "sends_telemetry_event": true
+}

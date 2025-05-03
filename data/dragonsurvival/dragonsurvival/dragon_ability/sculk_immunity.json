@@ -10,7 +10,7 @@
                 {
                   "base": {
                     "custom_icon": "dragonsurvival:textures/ability_effect/drain_immunity.png",
-                    "id": "dragonsurvival:forest_immunity",
+                    "id": "dragonsurvival:sculk_immunity",
                     "should_remove_automatically": true
                   },
                   "damage_types": [

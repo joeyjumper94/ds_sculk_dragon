@@ -1,0 +1,46 @@
+{
+  "parent": "dragonsurvival:sculk/be_dragon",
+  "criteria": {
+    "be_fully_grown_adult": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:sculk_dragon"
+              },
+              "nbt": "{\"neoforge:attachments\":{\"dragonsurvival:dragon_handler\":{growth:60.0d}}}"
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "dragonsurvival.advancement.sculk/be_old_dragon.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:forest_full_icon"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "dragonsurvival.advancement.sculk/be_old_dragon"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "be_fully_grown_adult"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  }
+}

@@ -35,14 +35,26 @@
   "upgrade": {
     "conditions": [
       {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "type_specific": {
-            "type": "dragonsurvival:dragon_predicate",
-            "flight_was_granted": true
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "flight_was_granted": true
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "ds_sculk_dragon_wing_autounlock": 1
+            }
           }
-        }
+        ]
       }
     ],
     "require_previous": false,

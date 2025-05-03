@@ -1,4 +1,5 @@
 {
+  "replace":false,
   "values": [
     {
       "comment":"active, increases with level",

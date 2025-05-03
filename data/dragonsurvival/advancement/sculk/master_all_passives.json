@@ -1,0 +1,55 @@
+{
+  "parent": "dragonsurvival:sculk/be_old_dragon",
+  "criteria": {
+    "master_sculk_infect": {
+      "conditions": {
+        "ability": "dragonsurvival:sculk_infect",
+        "level": 5
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_sculk_athletics": {
+      "conditions": {
+        "ability": "dragonsurvival:sculk_athletics",
+        "level": 5
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_sculk_magic": {
+      "conditions": {
+        "ability": "dragonsurvival:sculk_magic",
+        "level": 10
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "dragonsurvival.advancement.sculk/master_all_passives.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:forest_source_of_magic"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "dragonsurvival.advancement.sculk/master_all_passives"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "master_sculk_infect"
+    ],
+    [
+      "master_sculk_athletics"
+    ],
+    [
+      "master_sculk_magic"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  }
+}

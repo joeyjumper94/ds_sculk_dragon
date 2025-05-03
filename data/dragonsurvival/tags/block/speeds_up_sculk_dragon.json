@@ -1,4 +1,5 @@
 {
+  "replace":false,
   "values": [
     "calibrated_sculk_sensor",
     "sculk",
@@ -7,6 +8,7 @@
     "sculk_shrieker",
     "sculk_vein",
     "soul_sand",
-    "soul_soil"
+    "soul_soil",
+    "wither_rose"
   ]
 }
