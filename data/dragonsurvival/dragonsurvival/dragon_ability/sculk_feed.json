@@ -17,7 +17,10 @@
                   "base": 100,
                   "per_level_above_first": 100
                 },
-                "effects": "minecraft:saturation"
+                "effects": "minecraft:saturation",
+                "probability": 1,
+                "effect_particles": false,
+                "show_icon": true
               }
             },
             {
@@ -66,19 +69,23 @@
         "layer": "BASE",
         "locks_neck": false,
         "locks_tail": false,
-        "transition_length": 4
+        "transition_length": 1
       },
       "start_and_charging": {
         "animation_key": "cast_magic_alt",
         "layer": "BASE",
         "locks_neck": false,
         "locks_tail": false,
-        "transition_length": 5
+        "transition_length": 1
       }
     },
     "can_move_while_casting": false,
     "cast_time": 20,
-    "cooldown": 600,
+    "cooldown": {
+      "type": "minecraft:linear",
+      "base": 300,
+      "per_level_above_first": 50
+    },
     "initial_mana_cost": 1,
     "sound": {
       "start": "minecraft:block.sculk.charge",
@@ -120,16 +127,16 @@
       },
       "values": [
         0,
-        25,
-        45,
-        60
+        10,
+        20,
+        30
       ]
     },
     "maximum_level": 4,
     "upgrade_type": "dragonsurvival:experience_levels"
   },
   "usage_blocked": {
-    "condition": "minecraft:all_of",
+    "condition": "minecraft:any_of",
     "terms": [
       {
         "condition": "minecraft:entity_properties",
