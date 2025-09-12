@@ -1,0 +1,36 @@
+{
+	"comment":"all listed blocks can be collected using bare claws by Sculk Dragons",
+	"replace":false,
+	"values": [
+		{
+			"comment":"",
+			"required":false,
+			"id":"calibrated_sculk_sensor"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"sculk"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"sculk_catalyst"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"sculk_sensor"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"sculk_shrieker"
+		},
+		{
+			"comment":"",
+			"required":false,
+			"id":"sculk_vein"
+		}
+	]
+}

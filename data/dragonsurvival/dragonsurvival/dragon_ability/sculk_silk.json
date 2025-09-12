@@ -1,0 +1,56 @@
+{
+	"activation": {
+		"activation_type": "dragonsurvival:passive",
+		"trigger": {
+			"trigger_type": "dragonsurvival:on_block_break"
+		}
+	},
+	"actions": [
+		{
+			"target_selection": {
+				"target_type": "dragonsurvival:looking_at",
+				"applied_effects": {
+					"block_effect": [
+						{
+							"effect_type": "dragonsurvival:block_harvest",
+							"valid_blocks": {
+								"type": "minecraft:matching_blocks",
+								"blocks": "#dragonsurvival:sculk_silk"
+							},
+							"probability": 1,
+							"tool": {
+								"id": "minecraft:diamond_pickaxe",
+								"components": {
+									"minecraft:enchantments": {
+										"minecraft:silk_touch": 1
+									}
+								},
+								"count": 1
+							}
+						},
+						{
+							"effect_type": "dragonsurvival:block_break",
+							"valid_blocks": {
+								"type": "minecraft:matching_blocks",
+								"blocks": "#dragonsurvival:sculk_silk"
+							},
+							"probability": 1,
+							"drop_loot": false
+						}
+					]
+				},
+				"range": 15
+			},
+			"trigger_rate": 0
+		}
+	],
+	"can_be_manually_disabled": true,
+	"icon": {
+		"texture_entries": [
+			{
+				"from_level": 0,
+				"texture_resource": "dragonsurvival:abilities/forest/forest_claws_and_teeth_0"
+			}
+		]
+	}
+}

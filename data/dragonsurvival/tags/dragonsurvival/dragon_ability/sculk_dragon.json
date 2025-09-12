@@ -38,6 +38,11 @@
 			"required":false,
 			"id":"dragonsurvival:sculk_athletics"
 		},
+		{
+			"comment":"passive, can be manually disabled",
+			"required":false,
+			"id":"dragonsurvival:sculk_silk"
+		},
 
 
 		{
