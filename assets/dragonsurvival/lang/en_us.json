@@ -25,6 +25,8 @@
   "dragon_ability.dragonsurvival.sculk_feed": "Sculk Feed",
   "dragon_ability.dragonsurvival.sculk_feed.desc": "■ Sculk dragons can feed some of their mana to their internal Sculk, the resulting sculk bloom replenishes their hunger\n\n■ the internal Sculk Bloom will cause them to feel §2Weak§r§7 and §2Fatigued§r§7 as an after effect\n\n■ The amount of Nourishment and the duration and intensity of the after effect will increase as you level up.",
 
+  "dragon_ability.dragonsurvival.sculk_eyelid": "Sculk Nictitating Eyelid",
+  "dragon_ability.dragonsurvival.sculk_eyelid.desc": "■ Allows you to §2stay longer§r§7 in §fbright§r§7 areas.",
 
   "dragon_ability.dragonsurvival.sculk_silk":"Sculk Silk",
   "dragon_ability.dragonsurvival.sculk_silk.desc":"■ Sculk dragons can collect Sculk related blocks without needing to use §fwithout Silk Touch tools§r§7",

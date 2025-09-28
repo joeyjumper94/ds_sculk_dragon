@@ -24,6 +24,11 @@
 
 
 		{
+			"comment":"increases time before blindness from bright light",
+			"required":false,
+			"id":"dragonsurvival:sculk_eyelid"
+		},
+		{
 			"comment":"passive, manually leveled",
 			"required":false,
 			"id":"dragonsurvival:sculk_magic"
