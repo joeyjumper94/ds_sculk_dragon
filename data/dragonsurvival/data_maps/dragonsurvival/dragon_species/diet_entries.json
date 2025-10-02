@@ -88,6 +88,22 @@
             "nutrition": 1,
             "saturation": 1.0
           }
+        },
+        {
+          "items": "knightlib:small_essence",
+          "properties": {
+            "eat_seconds": 1.0,
+            "nutrition": 1,
+            "saturation": 1.0
+          }
+        },
+        {
+          "items": "knightlib:great_essence",
+          "properties": {
+            "eat_seconds": 1.0,
+            "nutrition": 4,
+            "saturation": 4.0
+          }
         }
       ]
     }

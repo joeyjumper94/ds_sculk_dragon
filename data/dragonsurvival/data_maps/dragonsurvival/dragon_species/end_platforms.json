@@ -9,11 +9,11 @@
         }
       ],
       "spawn_position": [
-        0,
-        50,
-        -200
+        -128,
+        64,
+        -128
       ],
-      "structure": "dragonsurvival:end_spawn_platforms/forest_end_spawn_platform"
+      "structure": "dragonsurvival:end_spawn_platforms/sculk_end_spawn_platform"
     }
   }
 }
