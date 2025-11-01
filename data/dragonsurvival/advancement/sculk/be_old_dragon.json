@@ -10,9 +10,14 @@
             "predicate": {
               "type_specific": {
                 "type": "dragonsurvival:dragon_predicate",
-                "dragon_species": "dragonsurvival:sculk_dragon"
-              },
-              "nbt": "{\"neoforge:attachments\":{\"dragonsurvival:dragon_handler\":{growth:60.0d}}}"
+                "dragon_species": "dragonsurvival:sculk_dragon",
+                "stage_specific": {
+                  "dragon_stage": "dragonsurvival:adult",
+                  "growth_percentage": {
+                    "min": 0.92
+                  }
+                }
+              }
             }
           }
         ]

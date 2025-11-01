@@ -40,8 +40,8 @@
   "dragon_ability.dragonsurvival.sculk_wings.desc": "■ Dragons use §flevitation§r§7 to §2fly§r§7, but are rarely born with that ability.",
 
   "dragon_species.dragonsurvival.sculk_dragon": "Sculk Dragon",
-  "dragon_species.dragonsurvival.sculk_dragon.altar.desc": "§7■ §6Sculk Dragons§r§7 is a §fdiamond§r§7 elementals covered in §fsculk§r§7. They are excellent §fadventurers§r§7 and §fcavers§r§7.\n\n§2■ Features:§f§r§7hoe claws, Nourishment from Mana, faster movement on sculk blocks.\n§4■ Weakness:§r§7 very narrow diet. blindness from bright light.\n§6■ Diet:§r %s",
-  "dragon_species.dragonsurvival.sculk_dragon.banner.desc": "§7■ §6Sculk Dragon§r§7 is a §fdiamond§r§7 elemental covered in §fsculk§r§7. They are excellent §fadventurers§r§7 and §fcavers§r§7.\n\n§7■ §fSculk§r§7, §fNether Ward§r§7, and items rich in of §fSoul Energy§r§7 are your favorite foods and fertilizer for your sculk.",
+  "dragon_species.dragonsurvival.sculk_dragon.altar.desc": "§7■ §6Sculk Dragons§r§7 is a §fdiamond§r§7 elemental covered in §fsculk§r§7. They are excellent §fadventurers§r§7 and §fcavers§r§7.\n\n§2■ Features:§f§r§7hoe claws, Nourishment from Mana, faster movement on sculk blocks.\n§4■ Weakness:§r§7 very narrow diet. blindness from bright light.\n§6■ Diet:§r %s",
+  "dragon_species.dragonsurvival.sculk_dragon.banner.desc": "§7■ §6Sculk Dragon§r§7 is a §fdiamond§r§7 elemental covered in §fsculk§r§7. They are excellent §fadventurers§r§7 and §fcavers§r§7.\n\n§7■ §fSculk§r§7, §fNether Wart§r§7, and items rich in of §fSoul Energy§r§7 are your favorite foods and fertilizer for your sculk.",
 
   "dragon_penalty.dragonsurvival.light_sensitivity":"Light Sensitivity",
   "dragon_penalty.dragonsurvival.light_sensitivity.desc":"§7■ §6Sculk Dragon§r§7 evolved to live in dark environments.\n\n§7■Exposure to bright lights may result in temporary §cBlindness§r",
