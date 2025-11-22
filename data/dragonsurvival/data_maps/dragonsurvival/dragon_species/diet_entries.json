@@ -115,8 +115,11 @@
         },
         {
           "items": "#alcocraftplus:beer_mugs",
+          "comment":"this exists to allow sculk dragons to consume alcocraftplus beer",
           "properties": {
-            "comment":"this exists to allow sculk dragons to consume alcocraftplus beer_mugs"
+            "eat_seconds": 2.0,
+            "nutrition": 0,
+            "saturation": 0.0
           }
         }
       ]
