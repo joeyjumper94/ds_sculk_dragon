@@ -15,6 +15,13 @@
       },
       "trigger": "dragonsurvival:upgrade_ability"
     },
+    "master_sculk_eyelid": {
+      "conditions": {
+        "ability": "dragonsurvival:sculk_eyelid",
+        "level": 8
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
     "master_sculk_magic": {
       "conditions": {
         "ability": "dragonsurvival:sculk_magic",
@@ -44,6 +51,9 @@
     ],
     [
       "master_sculk_athletics"
+    ],
+    [
+      "master_sculk_eyelid"
     ],
     [
       "master_sculk_magic"

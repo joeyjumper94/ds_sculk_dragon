@@ -11,11 +11,7 @@
       "effects": [
         {
           "duration": 400,
-          "effect": "dragonsurvival:forest_magic"
-        },
-        {
-          "duration": 400,
-          "effect": "dragonsurvival:sturdy_skin"
+          "effect": "dragonsurvival:source_of_magic"
         }
       ],
       "payment_data": {

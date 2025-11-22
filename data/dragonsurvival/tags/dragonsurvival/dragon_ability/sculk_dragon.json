@@ -2,15 +2,16 @@
   "replace":false,
   "values": [
 		{
+			"comment":"active, resets warden anger, decided to make this available as an unlock rather than automatically given to all sculk dragons",
+			"required":false,
+			"id":"dragonsurvival:sculk_amnesia_disabled"
+		},
+		{
 			"comment":"active",
 			"required":false,
 			"id":"dragonsurvival:sculk_eyes"
 		},
-		{
-			"comment":"active, increases with level",
-			"required":false,
-			"id":"dragonsurvival:inspiration"
-		},
+
 		{
 			"comment":"active, increases with level",
 			"required":false,
@@ -34,24 +35,23 @@
 			"id":"dragonsurvival:sculk_magic"
 		},
 		{
-			"comment":"passive, manually leveled",
+			"comment":"passive, manually leveled, causes a DOT based on withering",
 			"required":false,
 			"id":"dragonsurvival:sculk_infect"
 		},
 		{
-			"comment":"passive, manually leveled",
+			"comment":"passive, manually leveled, causes sculk dragons to move faster over soul energy rich blocks",
 			"required":false,
 			"id":"dragonsurvival:sculk_athletics"
 		},
+
 		{
 			"comment":"passive, can be manually disabled",
 			"required":false,
 			"id":"dragonsurvival:sculk_silk"
 		},
-
-
 		{
-			"comment":"",
+			"comment":"passive, used for flight",
 			"required":false,
 			"id":"dragonsurvival:sculk_wings"
 		},
@@ -66,9 +66,14 @@
 			"id":"dragonsurvival:sculk_spin"
 		},
 		{
-			"comment":"",
+			"comment":"passive, allows sculk dragons to hoe stuff up quicker",
 			"required":false,
 			"id":"dragonsurvival:sculk_claws_and_teeth"
-    }
+    },
+		{
+			"comment":"passive, prevents warden anger from mere presence",
+			"required":false,
+			"id":"dragonsurvival:sculk_passivation"
+		}
   ]
 }
