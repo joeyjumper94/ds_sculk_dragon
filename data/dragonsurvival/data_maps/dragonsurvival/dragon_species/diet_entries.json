@@ -104,6 +104,20 @@
             "nutrition": 4,
             "saturation": 4.0
           }
+        },
+        {
+          "items": "biomeswevegone:soul_fruit",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 4,
+            "saturation": 4.0
+          }
+        },
+        {
+          "items": "#alcocraftplus:beer_mugs",
+          "properties": {
+            "comment":"this exists to allow sculk dragons to consume alcocraftplus beer_mugs"
+          }
         }
       ]
     }
