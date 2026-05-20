@@ -1,0 +1,17 @@
+{
+	"values": [
+		{
+			"comment": "this exists to allow sculk dragons to consume alcocraftplus beer",
+			"required": false,
+			"id": "#alcocraftplus:beer_mugs"
+		}
+	],
+	"remove": [
+		{
+			"comment": "nether star lager will be a seperate entry",
+			"required": false,
+			"id": "alcocraftplus:nether_star_lager"
+		}
+	],
+	"replace": false
+}

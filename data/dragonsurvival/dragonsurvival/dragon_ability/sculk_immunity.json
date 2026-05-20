@@ -13,10 +13,7 @@
                     "id": "dragonsurvival:sculk_immunity",
                     "should_remove_automatically": true
                   },
-                  "damage_types": [
-                    "minecraft:wither",
-                    "dragonsurvival:sculk"
-                  ],
+                  "damage_types": "#dragonsurvival:sculk_immunity",
                   "multiplier": 0.0
                 }
               ]

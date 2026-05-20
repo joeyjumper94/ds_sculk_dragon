@@ -1,14 +1,19 @@
 {
   "replace":false,
   "values": [
-    "calibrated_sculk_sensor",
-    "sculk",
-    "sculk_catalyst",
-    "sculk_sensor",
-    "sculk_shrieker",
-    "sculk_vein",
-    "soul_sand",
-    "soul_soil",
-    "wither_rose"
+    {
+      "comment":"anything sculk dragons can just silk up with their claws can also speed them up",
+      "required":false,
+      "id":"#dragonsurvival:sculk_silk"
+    },{
+      "required":false,
+      "id":"minecraft:soul_sand"
+    },{
+      "required":false,
+      "id":"minecraft:soul_soil"
+    },{
+      "required":false,
+      "id":"minecraft:wither_rose"
+    }
   ]
 }

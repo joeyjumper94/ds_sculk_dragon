@@ -114,12 +114,22 @@
           }
         },
         {
-          "items": "#alcocraftplus:beer_mugs",
-          "comment":"this exists to allow sculk dragons to consume alcocraftplus beer",
+          "comment":"this exists to allow sculk dragons to consume things and get the normal effects but not actually any nutrition",
+          "items": "#ds_sculk_dragon:eat_retain_effects",
+          "retain_effects": true,
           "properties": {
-            "eat_seconds": 2.0,
             "nutrition": 0,
             "saturation": 0.0
+          }
+        },
+        {
+          "comment":"this exists to allow sculk dragons to consume things and get the normal effects but not actually any nutrition",
+          "items": "alcocraftplus:nether_star_lager",
+          "retain_effects": true,
+          "properties": {
+            "eat_seconds": 1.0,
+            "nutrition": 2,
+            "saturation": 2.0
           }
         }
       ]

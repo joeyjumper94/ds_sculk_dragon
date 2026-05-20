@@ -7,51 +7,31 @@
             {
               "effect_type": "dragonsurvival:potion",
               "potion": {
-                "amplifier": {
-                  "type": "minecraft:linear",
-                  "base": 0,
-                  "per_level_above_first": 1
-                },
-                "duration": {
-                  "type": "minecraft:linear",
-                  "base": 100,
-                  "per_level_above_first": 100
-                },
-                "effects": "minecraft:saturation",
-                "probability": 1,
+                "effects": [
+
+                  "minecraft:mining_fatigue",
+                  "minecraft:weakness"
+                ],
+                "amplifier": 1,
+                "duration": 100,
+                "probability": 100,
                 "effect_particles": false,
                 "show_icon": true
               }
             },
             {
-              "effect_type": "dragonsurvival:potion",
-              "potion": {
-                "amplifier": 3,
-                "duration": {
-                  "type": "minecraft:linear",
-                  "base": 100,
-                  "per_level_above_first": 100
-                },
-                "effects": "minecraft:mining_fatigue",
-                "probability": 1,
-                "effect_particles": false,
-                "show_icon": true
-              }
-            },
-            {
-              "effect_type": "dragonsurvival:potion",
-              "potion": {
-                "amplifier": 3,
-                "duration": {
-                  "type": "minecraft:linear",
-                  "base": 100,
-                  "per_level_above_first": 100
-                },
-                "effects": "minecraft:weakness",
-                "probability": 1,
-                "effect_particles": false,
-                "show_icon": true
-              }
+              "effect_type": "dragonsurvival:hunger",
+              "hunger_gain": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "saturation_gain": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "conversion_rate": 1
             }
           ],
           "targeting_mode": "allies_and_self"
@@ -63,28 +43,33 @@
   ],
   "activation": {
     "activation_type": "dragonsurvival:simple",
+    "notification": {
+      "usage_blocked": {
+        "translate": ""
+      }
+    },
     "animations": {
       "end": {
         "animation_key": "magic_alt",
         "layer": "BASE",
         "locks_neck": false,
         "locks_tail": false,
-        "transition_length": 1
+        "transition_length": 0
       },
       "start_and_charging": {
         "animation_key": "cast_magic_alt",
         "layer": "BASE",
         "locks_neck": false,
         "locks_tail": false,
-        "transition_length": 1
+        "transition_length": 0
       }
     },
     "can_move_while_casting": false,
     "cast_time": 20,
     "cooldown": {
       "type": "minecraft:linear",
-      "base": 300,
-      "per_level_above_first": 50
+      "base": 200,
+      "per_level_above_first": 200
     },
     "initial_mana_cost": 1,
     "sound": {
@@ -93,6 +78,7 @@
       "end": "minecraft:ui.toast.in"
     }
   },
+  "can_be_manually_disabled": true,
   "icon": {
     "texture_entries": [
       {
@@ -102,35 +88,14 @@
       {
         "from_level": 1,
         "texture_resource": "dragonsurvival:abilities/unclaimed/1_omnivore"
-      },
-      {
-        "from_level": 2,
-        "texture_resource": "dragonsurvival:abilities/unclaimed/1_omnivore"
-      },
-      {
-        "from_level": 3,
-        "texture_resource": "dragonsurvival:abilities/unclaimed/1_omnivore"
-      },
-      {
-        "from_level": 4,
-        "texture_resource": "dragonsurvival:abilities/unclaimed/1_omnivore"
       }
     ]
   },
   "upgrade": {
     "level_requirement": {
-      "type": "minecraft:lookup",
-      "fallback": {
-        "type": "minecraft:linear",
-        "base": 15,
-        "per_level_above_first": 15
-      },
-      "values": [
-        0,
-        10,
-        20,
-        30
-      ]
+      "type": "minecraft:linear",
+      "base": 0,
+      "per_level_above_first": 15
     },
     "maximum_level": 4,
     "upgrade_type": "dragonsurvival:experience_levels"

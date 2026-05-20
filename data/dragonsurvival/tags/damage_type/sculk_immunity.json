@@ -1,0 +1,12 @@
+{
+  "replace":false,
+  "values": [
+    {
+      "id":"minecraft:wither",
+      "required":false
+    },{
+      "id":"dragonsurvival:sculk",
+      "required":false
+    }
+  ]
+}
