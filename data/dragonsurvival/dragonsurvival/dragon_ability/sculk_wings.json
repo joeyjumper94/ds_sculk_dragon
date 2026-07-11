@@ -51,7 +51,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "ds_sculk_dragon_wing_autounlock": 1
+              "ds_sculk_dragon_wing_auto_unlock": 1
             }
           }
         ]

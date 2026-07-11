@@ -12,21 +12,8 @@
 				"applied_effects": {
 					"block_effect": [
 						{
-							"effect_type": "dragonsurvival:block_harvest",
-							"valid_blocks": {
-								"type": "minecraft:matching_blocks",
-								"blocks": "#dragonsurvival:sculk_silk"
-							},
-							"probability": 1,
-							"tool": {
-								"id": "minecraft:diamond_pickaxe",
-								"components": {
-									"minecraft:enchantments": {
-										"minecraft:silk_touch": 1
-									}
-								},
-								"count": 1
-							}
+							"effect_type": "dragonsurvival:run_function",
+							"function": "ds_sculk_dragon:sculk_silk/at_block"
 						},
 						{
 							"effect_type": "dragonsurvival:block_break",
