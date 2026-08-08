@@ -1,0 +1,19 @@
+{
+  "replace":false,
+  "values": [
+    {
+      "comment":"anything sculk dragons can just silk up with their claws can also speed them up",
+      "required":false,
+      "id":"#dragonsurvival:sculk_silk"
+    },{
+      "required":false,
+      "id":"minecraft:soul_sand"
+    },{
+      "required":false,
+      "id":"minecraft:soul_soil"
+    },{
+      "required":false,
+      "id":"minecraft:wither_rose"
+    }
+  ]
+}

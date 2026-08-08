@@ -1,6 +1,8 @@
 {
-  "pack": {
-    "pack_format": 34,
-    "description": "DS Sculk dragon"
-  }
+	"pack": {
+		"description": "DS Sculk dragon",
+    	"max_format": 99,
+		"min_format": 15,
+		"pack_format": 34
+	}
 }
